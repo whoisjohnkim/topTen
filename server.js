@@ -19,7 +19,7 @@ else{
 app.use(routes);
 
 // If deployed, use the deployed database. Otherwise use the local articles database
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/ontap";
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/topten";
 
 
 // Set mongoose to leverage built in JavaScript ES6 Promises
