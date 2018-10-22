@@ -1,0 +1,9 @@
+.myNav {
+    background-color: gray;
+    height: 80px;
+}
+
+.link {
+    color: white !important;
+    font-size: 55px;
+}

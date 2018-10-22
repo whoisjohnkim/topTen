@@ -1,4 +1,4 @@
-const db = rqeuire("../models");
+const db = require("../models");
 
 //Define methods fro the list Controller
 module.exports = {
@@ -17,7 +17,7 @@ module.exports = {
     findbyId: function(req, res) {
         db.List
             .findById({_id: req.params.id})
-            .then(db.Model => res.json(dbModel))
+            .then(dbModel => res.json(dbModel))
             .catch(err => res.status(422).json(err));
     },
     remove: function(req, res) {
