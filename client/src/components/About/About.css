@@ -1,0 +1,27 @@
+.pageHeader {
+    font-family: 'Poiret One', cursive;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 120px;
+    margin-top: 10%;
+}
+
+.links {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+
+.mainLink {
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.mainLink:hover {
+    color: darkgray;
+    text-decoration: none;
+}

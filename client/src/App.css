@@ -2,4 +2,5 @@ body {
   background-image: url('./images/background.jpg');
   background-size: 100%;
   background-attachment: fixed;
+  font-family: 'Poiret One', cursive;
 }

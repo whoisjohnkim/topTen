@@ -1,9 +1,13 @@
 .myNav {
-    background-color: gray;
+    background-color: white;
     height: 80px;
+    opacity: 0.8;
 }
 
 .link {
-    color: white !important;
-    font-size: 55px;
+    font-size: 40px;
+}
+
+.logo {
+    padding: 10px;
 }
