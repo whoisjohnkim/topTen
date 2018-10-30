@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
 import Home from './pages/Home/Home.js';
+import Lists from './pages/All/All.js';
+import List from './pages/List/List.js';
 
 class App extends Component {
   render() {
@@ -10,6 +12,8 @@ class App extends Component {
         <div>
           <Switch>
             <Route exact path="/" component={Home}/>
+            <Route exact path="/lists" component={Lists}/>
+            <Route exact path="/list/:id" component={List}/>
           </Switch>
         </div>
       </Router>

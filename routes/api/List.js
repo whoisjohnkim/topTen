@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const listController = require("../../controllers/listController.js");
 
-// Matches with "/api/list/"
+// Matches with "/api/lists/"
 router.route("/")
     .get(listController.findAll)
     .post(listController.create);

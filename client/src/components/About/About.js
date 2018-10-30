@@ -10,7 +10,7 @@ const About = () => (
                     Top<Icon/>
                 </span>
                 <span className="links">
-                    <a href="/" className="mainLink">All Lists</a>|
+                    <a href="/lists" className="mainLink">All Lists</a>|
                     <a href="/" className="mainLink">Top Lists</a>|
                     <a href="/" className="mainLink">New List</a>
                 </span>
