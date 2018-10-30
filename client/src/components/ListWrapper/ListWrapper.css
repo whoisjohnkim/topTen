@@ -1,0 +1,33 @@
+.container {
+    width: 50%;
+    margin-bottom: 100px;
+}
+
+.listItem {
+    padding: 5px;
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    width: 100%;
+}
+
+.arrowSpan {
+    position: absolute;
+    right: 0;
+}
+
+.arrow {
+    width: 20px;
+    margin-left: 10px;
+}
+
+.arrow:hover {
+    opacity: 0.5;
+}
+
+.upArrow {
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+}

@@ -27,7 +27,12 @@ class List extends Component {
         return(
             <div>
                 <Header/>
-
+                <ListWrapper
+                    title={this.state.title}
+                    list={this.state.list}
+                    category={this.state.category}
+                    key={this.state.id}
+                />
             </div>
         )
     }

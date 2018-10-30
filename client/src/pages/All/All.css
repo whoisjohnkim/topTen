@@ -1,0 +1,20 @@
+.allListsTitle {
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+.linkDiv {
+    text-align: center;
+}
+
+.listLink {
+    color: black;
+}
+
+.listLink:hover {
+    color: gray;
+    text-decoration: none;
+}

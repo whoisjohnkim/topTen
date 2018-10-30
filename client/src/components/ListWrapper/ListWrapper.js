@@ -1,17 +1,28 @@
 import React from "react";
 import "./ListWrapper.css";
-import {default as List} from "../List/index";
-
+import arrow from "../../images/arrow.svg"
 
 const ListWrapper = (props) => (
-    <div>
-        {props.list.map(item => (
-            <List
-                title={item.title}
-                key={item._id}
-                id={item._id}
-            />
-        ))}
+
+    <div className="container">
+        <div className="row">
+            <div className="col">
+                <h3 className="title">{props.title}</h3>
+
+                {props.list.map(item => (
+                    <div className="listItem">
+                        <span className="itemText">{item}</span>
+                        <span className="arrowSpan">
+                            Votes:
+                            <img src={arrow} className="upArrow arrow" alt="upArrow" onClick={props.upVote}/>
+                            <img src={arrow} className="downArrow arrow" alt="downArrow" onClick={props.downVote}/>
+                        </span>
+                        <hr/>
+                    </div>
+                ))}
+
+            </div>
+        </div>
     </div>
 )
 
