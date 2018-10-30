@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './List.css';
 import {default as ListWrapper} from '../../components/ListWrapper/index';
 import { default as Header } from "../../components/Header/index";
+import { default as Footer } from "../../components/Footer/index";
 import API from "../../utils/API";
 
 class List extends Component {
@@ -33,6 +34,7 @@ class List extends Component {
                     category={this.state.category}
                     key={this.state.id}
                 />
+                <Footer/>
             </div>
         )
     }
