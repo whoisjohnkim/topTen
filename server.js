@@ -19,10 +19,6 @@ else{
 // Add routes, both API and view
 app.use(routes);
 
-app.get('*', (request, response) => {
-	response.sendFile(path.join(__dirname, 'client/build', 'index.html'));
-});
-
 // If deployed, use the deployed database. Otherwise use the local articles database
 var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/topten";
 
